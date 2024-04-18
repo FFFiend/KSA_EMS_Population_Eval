@@ -7,7 +7,7 @@ This repo provides R scripts, data files, records of LLM use as well as code for
 
 The repo is structured as:
 
--   `data` contains the raw data as obtained from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPVQET 
+-   `data` contains the raw data as obtained from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPVQET, as well as the RData file and the final parquet file used for the paper.
 -   `model` contains the fitted logistic regression model.
 -   `llm` contains all the LLM usage for this paper.
 -   `paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
