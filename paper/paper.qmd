@@ -139,7 +139,7 @@ modelsummary(model)
 # Discussion 
 
 ## Individuals working in non healthcare-related professions are less likely to call EMS 
-This may be due to a lack of awareness amongst individuals working in said professions, either at the regional level or perhaps the entire country. Saudi Arabia is a relatively young country, and perhaps more attention needs to be drawn to services such as EMS that are available to the public. Recall that one of the columns in the original dataset, **Know_EMS**, is a possible candidate for a predictor that we can extend our model by. 
+This may be due to a lack of awareness amongst individuals working in said professions, either at the regional level or perhaps the entire country. Saudi Arabia is a relatively young country, and perhaps more attention needs to be drawn to services such as EMS that are available to the public. Recall that one of the columns in the original dataset, **Know_EMS**, is a possible candidate for a predictor that we can extend our model by. Note also that simply adding the former as a fourth predictor variable would only help us test the "lack of awareness" possibility within the eastern region, and that more data from multiple regions is needed to make a claim at a country-wide level.
 
 ## An individual is less likely to call for EMS the higher their education level is
 Our results show that more educated individuals in the Eastern Saudi Arabian region are less likely to call EMS. This is contrary to findings in a related paper titled "Does education lead to higher generalized trust? The importance of quality of government" [@citecompare] which states that "Strong support is found for a positive link between education and trust at the individual level when quality of institutions is high". This difference in public opinion amongst individuals with higher education may be attributed to cultural differences between Saudi Arabia and the 24 European countries which were surveyed in the aforementioned study. It is however likely that the discrepancy arises from a lack of sufficient data, i.e we fit our model on survey responses from 435 individuals in a specific region of Saudi Arabia, and perhaps increasing the radius to capture public opinion in more regions and/or surveying a larger number of individuals within the Eastern region may provide a similar outcome.
@@ -156,7 +156,7 @@ As alluded to in the prior two sections, there are a couple things we can do to 
 
 1. Using the **Know_EMS** column as a predictor variable, adding a fourth predictor to our model and conducting analysis on the same dataset to see if higher education is related to an increased likelihood of calling for EMS.
 
-2. Gathering similar studies of the Saudi Arabian population or creating our own survey on Emergency Medical Services and sending it to multiple regions within the country may give us a more accurate view of the population's opinion and decision-making regarding EMS, thereby increasing model performance as more data leads to train on leads to better fitted results.
+2. Gathering similar studies of the Saudi Arabian population or creating our own survey on Emergency Medical Services and sending it to multiple regions within the country may give us a more accurate view of the population's opinion and decision-making regarding EMS, thereby increasing model performance as more data to train on leads to better fitted results.
 
 # References
 
